@@ -3,6 +3,7 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using SmartStore.Models.Blogs;
 
 namespace SmartStore.Models
 {
@@ -25,6 +26,9 @@ namespace SmartStore.Models
         {
         }
 
+        public virtual DbSet<BlogPost> BlogPosts { get; set; }
+
+        public virtual DbSet<Tag> Tags { get; set; }
         public static ApplicationDbContext Create()
         {
             return new ApplicationDbContext();

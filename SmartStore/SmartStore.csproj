@@ -174,7 +174,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Blogs\BlogPost.cs" />
+    <Compile Include="Models\Blogs\Tag.cs" />
     <Compile Include="Models\Catalog\Product.cs" />
     <Compile Include="Models\Catalog\ProductBundleItem.cs" />
     <Compile Include="Models\Catalog\ProductReview.cs" />
@@ -525,12 +528,6 @@
     <Content Include="Content\Images\star-on.png" />
     <Content Include="Content\Samples\blog\bauhaus-preview.jpg" />
     <Content Include="Content\Samples\blog\bauhaus.jpg" />
-    <Content Include="Content\Samples\blog\de\bauhaus.xml" />
-    <Content Include="Content\Samples\blog\de\corvette.xml" />
-    <Content Include="Content\Samples\blog\de\football.xml" />
-    <Content Include="Content\Samples\blog\de\lion.xml" />
-    <Content Include="Content\Samples\blog\de\maldives.xml" />
-    <Content Include="Content\Samples\blog\de\mountEverest.xml" />
     <Content Include="Content\Samples\blog\en\bauhaus.xml" />
     <Content Include="Content\Samples\blog\en\corvette.xml" />
     <Content Include="Content\Samples\blog\en\football.xml" />
@@ -620,12 +617,7 @@
     <Content Include="Content\Samples\company-logo.png" />
     <Content Include="Content\Samples\download\beethoven-fur-elise.mp3" />
     <Content Include="Content\Samples\download\vivaldi-four-seasons-spring.mp3" />
-    <Content Include="Content\Samples\favicon.ico" />
     <Content Include="Content\Samples\news\benz-first-modern-car.jpg" />
-    <Content Include="Content\Samples\news\de\FirstModernCar.xml" />
-    <Content Include="Content\Samples\news\de\MountEverest.xml" />
-    <Content Include="Content\Samples\news\de\Titanic.xml" />
-    <Content Include="Content\Samples\news\de\ZuseZ3.xml" />
     <Content Include="Content\Samples\news\en\FirstModernCar.xml" />
     <Content Include="Content\Samples\news\en\MountEverest.xml" />
     <Content Include="Content\Samples\news\en\Titanic.xml" />
